@@ -1,0 +1,54 @@
+// true = 启用  false = 禁用
+// 该文件用于配置热键路径和名称
+
+// true = enabled  false = disabled
+// This file is used to configure hotkey paths and names
+
+[
+  {"rage_mindamage":true},                  //  CN-伤害          EN-Min-damage
+  {"rage_hitchance":true},                  // CN-命中率         EN-Hit-chance
+  {"rage_pointscale":false},                  // CN-边缘          EN-Pointscale
+  {"rage_hitboxes":true},                  // CN-击中部位         EN-Hitboxes
+  {"rage_multipoint":false},                  // CN-多点部位         EN-Multipoint
+  {"rage_autostop_mode":true},                  // CN-急停模式         EN-Autostop Mode
+  {"rage_target_selection":true},                  // CN-目标选择        EN-Target Selection
+  {"legit_mindamage":true},                  // CN-合法伤害        EN- Legit Min-damage
+  {"legit_hitchance":true},                  // CN-合法命中率        EN- Legit Hit-chance
+  {"legit_triggerbot":true},                  // CN-合法扳机          EN- Legit Triggerbot
+  {"legit_aim_assist":true},                  // CN-合法自瞄          EN- Legit Aim Assist
+  {"anti_pitch":true},                  // CN-抬头角度          EN-Anti Pitch
+  {"anti_yaw_base":true},                  // CN-人物朝向          EN-Yaw Base
+  {"anti_yaw":true},                  // CN-偏航          EN- Yaw
+  {"anti_yaw_angle":true},                  // CN-偏航角度          EN-Yaw Angle
+  {"path":"rage>aimbot>general>aimbot","name":"Aimbot","enable":false},
+  {"path":"rage>aimbot>general>silent","name":"Silent","enable":true},
+  {"path":"rage>aimbot>general>penetration","name":"Penetration","enable":true},
+  {"path":"rage>aimbot>general>autofire","name":"Autofire","enable":true},
+  {"path":"rage>aimbot>general>delay shot","name":"Delay Shot","enable":true},
+  {"path":"misc>aimbot>general>duck peek assist","name":"Duck peek assist","enable":true},
+  {"path":"rage>aimbot>general>force bodyaim","name":"Force bodyaim","enable":true},
+  {"path":"rage>aimbot>general>force shoot","name":"Force shoot","enable":true},
+  {"path":"rage>aimbot>general>headshot only","name":"Headshot Only","enable":true},
+  {"path":"rage>aimbot>general>nospread","name":"Nospread","enable":true},
+  {"path":"rage>aimbot>general>nospread>settings>force","name":"Nospread Force","enable":true},
+  {"path":"rage>aimbot>general>doubletap","name":"Doubletap","enable":true},
+  {"path":"rage>anti-aim>angles>anti-aim","name":"Anti-aim","enable":true},
+  {"path":"rage>anti-aim>angles>hide shot","name":"Hide Shot","enable":true},
+  {"path":"rage>anti-aim>angles>spin","name":"Spin","enable":true},
+  {"path":"rage>anti-aim>angles>mouse override","name":"Mouse Override","enable":true},
+  {"path":"rage>anti-aim>angles>override left","name":"Override Left","enable":true},
+  {"path":"rage>anti-aim>angles>override right","name":"Override Right","enable":true},
+  {"path":"rage>anti-aim>angles>override back","name":"Override Back","enable":true},
+  {"path":"rage>anti-aim>angles>override forward","name":"Override Forward","enable":true},
+  {"path":"legit>general>enabled","name":"Legit Enabled","enable":true},
+  {"path":"legit>general>penetration","name":"Legit Penetration","enable":true},
+  {"path":"visuals>misc>local>thirdperson","name":"Thirdperson","enable":false},
+  {"path":"misc>movement>bhop","name":"Bhop","enable":true},
+  {"path":"misc>movement>jumpbug","name":"Jumpbug","enable":true},
+  {"path":"misc>movement>no land inaccuracy","name":"No Land Inaccuracy","enable":true},
+  {"path":"misc>movement>edge jump","name":"Edge Jump","enable":true},
+  {"path":"misc>movement>slowwalk","name":"Slowwalk","enable":true},
+  {"path":"misc>movement>peek assist","name":"Peek Assist","enable":true},
+  {"path":"misc>movement>standalone quick stop","name":"Standalone Quick Stop","enable":true},
+  {"path":"misc>misc>grenades>straight throw","name":"Straight Throw","enable":true}
+]
